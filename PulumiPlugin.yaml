@@ -9,6 +9,6 @@ components:
       random:
         type: command:local:Command
         properties:
-          create: "openssl rand -hex ${inputs.length}"
+          create: "openssl rand -hex ${length}"
     outputs:
       rand: "${random.stdout}"
