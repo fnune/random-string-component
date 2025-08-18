@@ -1,0 +1,14 @@
+runtime: yaml
+name: random-string-component
+components:
+  RandomString:
+    inputs:
+      length:
+        type: integer
+    resources:
+      random:
+        type: command:local:Command
+        properties:
+          create: "openssl rand -hex ${inputs.length}"
+    outputs:
+      rand: "${random.stdout}"
