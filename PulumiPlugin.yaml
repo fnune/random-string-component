@@ -11,4 +11,4 @@ components:
         properties:
           create: "openssl rand -hex ${length}"
     outputs:
-      rand: "${random.stdout}"
+      rand: "The output is ${random.stdout}"
