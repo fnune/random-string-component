@@ -1,6 +1,6 @@
 runtime: yaml
 name: random-string-component
-version: 0.1.2
+version: v0.1.3
 keywords:
   - kind/component
 components:
