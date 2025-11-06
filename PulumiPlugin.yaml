@@ -1,6 +1,8 @@
 runtime: yaml
 name: random-string-component
 version: 0.1.0
+keywords:
+  - component
 components:
   RandomString:
     inputs:
